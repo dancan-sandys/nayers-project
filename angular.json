@@ -33,7 +33,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/popper.js/dist/umd/popper.js",
+              "./node_modules/jquery/dist/jquery.slim.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "nayers"
+  "defaultProject": "nayers",
+  "cli": {
+    "analytics": "e4185f89-dc2e-4653-8ac2-f0feb3133f3d"
+  }
 }
