@@ -1,31 +1,43 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="dropbtn btn-dark">
+        <a class="navbar-brand nav-link" routerLink='/'>Nayer's Care</a>
+    </button>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">Yes</span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" routerLink='/'>Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+
+
+                <button class="dropbtn btn-dark">
+                    <a class="nav-link" routerLink='/about-us'>About Us</a>
+                </button>
+                <div class="dropdown-content">
+                    <a routerLink='/about/our-story'>Our Story</a>
+                    <a routerLink='/about/mission'>Mission</a>
+                    <a routerLink='/about/team'>Team</a>
+                    <a routerLink='/about/ethics-and-culture'>Ethics & culture</a>
+                    <a routerLink='/about/finances/'>Finances</a>
+                </div>
+
             </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink='/about-us'>About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink='/future-implimentations'>Future Implementations</a>
+            <li class="nav-item dropdown">
+
+                <button class="dropbtn btn-dark">
+                    <a class="nav-link" routerLink='/projects'>Projects </a>
+                </button>
+                <div class="dropdown-content">
+                    <a routerLink='projects/past'>Past Projects</a>
+                    <a routerLink='projects/current'>Current Projects</a>
+                    <a routerLink='projects/future-implimentations'>Future projects</a>
+                </div>
+
             </li>
             <li class="nav-item">
                 <a class="nav-link" routerLink='/gallery'>Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink='/mission'>Mission and Vission</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink='/our-story'>Our Story</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" routerLink='/projects'>Projects </a>
             </li>
         </ul>
     </div>
