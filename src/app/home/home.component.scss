@@ -7,6 +7,17 @@
     background-position: center center;
 }
 
+    #slider .carousel-item {
+    height: 500px;
+    }
+
+    .carousel-caption {
+    font-size: 18px;
+    }
+
+    .carousel-item>img {
+    width: 100%
+    }
 // .overlay{
 //     background-color: adjust-hue($color: #000000, $degrees: 50);
 //     height: 100vh;
