@@ -31,7 +31,7 @@ const routes: Routes = [
   { path: 'projects/past', component: PastProjectsComponent },
   { path: 'projects/current', component: CurrentProjectsComponent },
   { path: 'projects/future-implimentations', component: FutureImplimentationsComponent },
-
+  
 
 
 

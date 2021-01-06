@@ -5,17 +5,24 @@ body {
     padding: 60px 0;
 }
 
+.container{
+    border: 2px solid black;
+    border-radius: 5px 5px 5px black;
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .container.gallery-container {
-    background-color: #fff;
+    background-color:whitesmoke;
     color: #35373a;
     min-height: 100vh;
-    border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
 .gallery-container h1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
 }
