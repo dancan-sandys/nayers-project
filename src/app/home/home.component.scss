@@ -1,48 +1,23 @@
-.carosel{
-    background-image: url('../../assets/gallery/img7.jpg');
-    width: 100%;
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-    #slider .carousel-item {
-    height: 90vh;
-    }
-
-    .carousel-caption {
-    font-size: 18px;
-    }
-
-    .carousel-item>img {
-    width: 100%
-    }
-// .overlay{
-//     background-color: adjust-hue($color: #000000, $degrees: 50);
-//     height: 100vh;
-//     width: 100%;
-//     position: absolute;
-//     top: 0;
-//     opacity: 0.2;
-// }
-
-.actions{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    bottom: 5vh;
-    text-align: center;
-}
-
-.action{
+.arrow{
     color: white;
-    height: 30vh;
-    width: 20%;
-    
+    font-weight: 700;
 }
-
-.about{
-    width: 10% 
+.site-banner{
+    padding: 1rem 5rem; 
+     
+}
+.desc{
+    font-size: 1.6rem; 
+    background: linear-gradient(90deg, #eeff00 0%, #ee0505 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.nayer{
+    font-family: 'eurofurence';
+    font-size: 4rem;
+    background: linear-gradient(90deg,  #4458dc 0%, #6624eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
 }
