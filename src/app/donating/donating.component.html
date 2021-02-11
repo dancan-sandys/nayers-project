@@ -1,46 +1,98 @@
-<div class="padding">
-    <div class="row">
-        <div class="container-fluid d-flex justify-content-center">
-            <div class="col-sm-8 col-md-6">
-                <div class="card">
-                    <input class="personalDetails" type="text" placeholder="First Name">
-                    <input class="personalDetails" type="text" placeholder="Last Name">
-                    <input class="personalDetails" type="text" placeholder="Amount">
-                    <input class="personalDetails" type="text" placeholder="Phone Number">
-                    <input class="personalDetails email" type="text" placeholder="Email">
-                    <div class="card-header">
-                        <div class="row">
-                        
-                            <div class="col-md-6"> <span>CREDIT/DEBIT CARD PAYMENT</span> </div>
-                            <div class="col-md-6 text-right" style="margin-top: -5px;"> <img
-                                    src="https://img.icons8.com/color/36/000000/visa.png"> <img
-                                    src="https://img.icons8.com/color/36/000000/mastercard.png"> <img
-                                    src="https://img.icons8.com/color/36/000000/amex.png"> </div>
-                        </div>
-                    </div>
-                    <div class="card-body" style="height: 350px">
-                        <div class="form-group"> <label for="cc-number" class="control-label">CARD NUMBER</label> <input
-                                id="cc-number" type="tel" class="input-lg form-control cc-number"
-                                autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required> </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group"> <label for="cc-exp" class="control-label">CARD EXPIRY</label>
-                                    <input id="cc-exp" type="tel" class="input-lg form-control cc-exp"
-                                        autocomplete="cc-exp" placeholder="•• / ••" required> </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"> <label for="cc-cvc" class="control-label">CARD CVC</label>
-                                    <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc"
-                                        autocomplete="off" placeholder="••••" required> </div>
-                            </div>
-                        </div>
-                        <div class="form-group"> <label for="numeric" class="control-label">CARD HOLDER NAME</label>
-                            <input type="text" class="input-lg form-control"> </div>
-                        <div class="form-group"> <input value="MAKE PAYMENT" type="button"
-                                class="btn btn-success btn-lg form-control" style="font-size: .8rem;"> </div>
-                    </div>
+
+            <div class="card carded">
+                <div class="card-header text-center">
+                    <h2>Support Nayer's</h2>  
+                    <p>Your donation is appreciated.</p> 
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-1 col-sm-1"></div>
+                        <div class="col-lg-6 col-md-8 col-sm-10">
+                    
+                            <form class="form">
+                                <h4>Personal  Info</h4>
+                                <hr>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <label for="inputEmail4" class="text-dissable">First Name</label>
+                                      <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                    <label for="inputEmail4">Last Name</label>
+                                      <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                  </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-12">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                  <div class="form-group col-md-4">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                  </div>
+                                  <div class="form-group col-md-2">
+                                    <label for="inputStreet">Street</label>
+                                    <input type="text" class="form-control" id="inputStreet">
+                                  </div>
+                                  <div class="form-group col-md-4">
+                                    <label for="inputState">State</label>
+                                    <select id="inputState" class="form-control">
+                                      <option selected>Choose...</option>
+                                      <option>...</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group col-md-2">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" id="inputZip">
+                                  </div>
+                                </div>
+                                <div class="form-group col-md-4 donnate">
+                                    <div class="input-group mb-2">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text">Donation</div>
+                                      </div>
+                                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Amount">
+                                    </div>
+                                  </div>
+                                <button type="button" class="btn btn-success mt-2" data-toggle="modal" data-target="#exampleModalCenter">Donate Now</button>
+                              </form>
+                              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header" style="background-color: rgba(0, 0, 0, 0.03);">
+                                      <h5 class="modal-title text-center"  id="exampleModalLongTitle">Nayer's Care</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body" style="background-color: rgba(0, 0, 0, 0.03);">
+                                        <div class="form-row">
+                                              <div class="form-group col-md-12 p-0">
+                                                <input type="text" class="form-control" id="" placeholder="Card Number">
+                                              </div>
+                                            <div class="form-row">
+                                              <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="" placeholder="MM / YY">
+                                              </div>
+                                              <div class="form-group col-md-6">
+                                                <input type="text" class="form-control" id="" placeholder="CVC">
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-success ">Pay {{ amount }}</button>
+                                    </div>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-lg-3 col-md-1 col-sm-1"></div>  
+                    </div>
+
+                </div>
+              </div>
+            

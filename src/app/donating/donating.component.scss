@@ -1,17 +1,26 @@
-.padding {
-    padding: 5rem !important;
+.form{
+    margin-top: 5%;
+    margin-bottom: 20%;
 }
-
-.form-control:focus {
-    box-shadow: 10px 0px 0px 0px #ffffff !important;
-    border-color: #4ca746;
+.donnate{
+    padding-right: 0px;
+    padding-left: 0px;
 }
-
-.personalDetails{
-    width: 50%;
-    margin: 2%;
+.card-header{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
-
-.email{
-    margin-bottom: 5vh;
+.card-header h2{
+    font-size: 60px;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #eeff00 0%, #ee0505 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.col-lg-3 .col-md-1 .col-sm-1{
+    padding: 0;
+}
+.carded{
+    padding: 0px;
 }

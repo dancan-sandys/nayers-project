@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DonatingComponent implements OnInit {
 
+  amount = "Ksh. 100000";
+
   constructor() { }
 
   ngOnInit(): void {

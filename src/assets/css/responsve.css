@@ -1,0 +1,78 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
+    .header_area .main_menu .nav-item .nav-link {
+        font-size: 12px;
+        padding: 0.2rem;
+      }
+      .desc{
+        font-size: 0.7rem; 
+    }
+    .nayer{
+
+        font-size: 2rem; 
+    }
+    .arrow{
+        font-weight: bold;
+        padding: 4px;
+    }
+    .container-fluid{
+        padding: 0 !important;
+    }
+    .card-header h2{
+      font-size: 10px;
+      letter-spacing: 4px;
+  }
+  }
+  
+  /* if the viewport is equal to 340px or less than that */
+  @media only screen and (max-width: 792px) {
+    .header_area .main_menu .nav-item .nav-link {
+        font-size: 12px;
+        padding: 0.2rem;
+      }
+      .desc{
+        font-size: 0.7rem; 
+    }
+    .nayer{
+
+        font-size: 2.4rem; 
+    }
+    .arrow{
+        font-weight: bold;
+        padding: 4px;
+    }
+
+    .site-banner{
+        padding: 0 !important;
+    }
+    .header_area .main_menu .navbar {
+        padding: 2rem;
+      }
+    .site-main .site-banner .site-title h2 {
+        font-size: 36px;
+      }
+    .container-fluid{
+        padding: 0 !important;
+    }
+    .card-header h2{
+      font-size: 10px;
+      letter-spacing: 4px;
+  }
+     
+  }
+  
+  /* if the viewport is equal to 1910px or less than that */
+  @media only screen and  ( max-width: 1560px) {
+    .header_area .main_menu .navbar {
+      padding: 1rem;
+    }
+    .site-banner{
+        padding: 0 !important;
+        margin: 0;
+    }
+    .container-fluid{
+        padding: 0 !important;
+    }
+  
+  }

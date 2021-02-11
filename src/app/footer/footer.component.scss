@@ -1,0 +1,111 @@
+.footer-top-area{
+    background-color:rgba(0, 0, 0, 0.301);
+    padding: 1rem 5rem; 
+    color: white;
+}
+
+.footer-content{
+    color: white;
+}
+.footer-content h3, .footer-title h3{
+    color: #292929;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	text-transform: capitalize;
+}
+.footer-content p{
+	color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 0.025em;
+	line-height: 2;
+	margin: 30px 0;
+}.footer-content .footer-social h3{
+	color: #292929;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	text-transform: capitalize;
+}
+.footer-content .footer-social ul li{
+	margin-right: 10px;
+	display:inline-block;
+}
+.footer-content .footer-social ul li:last-child{
+	margin-right: 0;
+}
+.footer-content .footer-social ul li a{
+	background: #ebebeb none repeat scroll 0 0;
+	border-radius: 100%;
+	color: #aaaaaa;
+	display: inline-block;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	width: 41px;
+	transition:.3s;
+}
+.footer-content .footer-social ul li a:hover{
+	background: #4458dc none repeat scroll 0 0;
+	color:#fff;
+}
+.footer-content-2 p{
+    text-transform: capitalize;
+    color: #ffffff;
+	font-size: 16px;
+	letter-spacing: 0.025em;
+	line-height: 2;
+	margin: 30px 0;
+}
+.footer-content-2 .footer-social h3{
+	color: #292929;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 20px;
+	text-transform: capitalize;
+}
+
+.footer-content-2 .footer-social ul li a{
+	color: #ffffff;
+    text-decoration: none;
+
+}
+.footer-content-2 .footer-social ul li a:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #6624eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+.footer-top-menu ul li{
+	display:block;
+}
+.footer-top-menu ul li a{
+	color: #ffffff;
+	display: inline-block;
+	padding-bottom: 15px;
+	transition:.3s;
+    text-decoration: none;
+}
+.footer-top-menu ul li a:hover,.footer-bottom-menu ul li a:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #6624eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+}
+.single-footer .footer-title h5{
+    color: #292929;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+    margin-left: 24px;
+	text-transform: capitalize;
+}
+.user{
+    text-decoration: none;
+    background: linear-gradient(90deg, #4458dc 0%, #6624eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

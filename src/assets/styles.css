@@ -12,12 +12,15 @@
   .header_area .main_menu .nav-item .nav-link {
     /* font: normal 500 20px/2px 'Roboto', sans-serif; */
     text-transform: uppercase;
-    padding: 1.4rem;
+    /* padding: 1.4rem; */
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 1.4rem;
     color: #6b6b6b;
     font-weight: 500;
   }
   .header_area .main_menu .navbar-nav .active a {
-    background: linear-gradient(90deg, #4458dc 0%, #6624eb 100%);
+    background: linear-gradient(90deg, #eeff00 0%, #ee0505 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -25,14 +28,12 @@
   }
   
   .header_area .main_menu .navbar-nav :hover {
-    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    background: linear-gradient(90deg, #eeff00 0%, #ee0505 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  .dropdown-menu .dropdown-item :hover{
-      color: black;
-  }
+
   .donate{
       margin-top: -6px;
   }
@@ -51,6 +52,33 @@
     z-index: 999;
     transition: background 500ms ease-in-out;
   }
+
+  .arrow{
+    color: white;
+    font-weight: bolder;
+    padding: 14px;
+    background-color: black;
+}
+.site-banner{
+    padding: 1rem 5rem; 
+     
+}
+.desc{
+    font-size: 1.6rem; 
+    background: linear-gradient(90deg, #eeff00 0%, #ee0505 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.nayer{
+    font-family: 'eurofurence';
+    font-size: 5rem;
+    background: linear-gradient(90deg, #3c50fc 0%, #18027c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800; 
+}
 
 
 
